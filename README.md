@@ -24,7 +24,7 @@ A **16-to-1 multiplexer** has 16 data inputs and 4 select lines. Based on the bi
 
 iverilog -o mux_sim mux_beh.v mux_beh_tb.v
 
-###2. Simulate
+2. Simulate
 
 vvp mux_sim
 
